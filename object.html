@@ -16,16 +16,41 @@
         background: url(asset/travelworthy-backdrop.jpg) center/cover;
       }
       .left {
+        padding: 100px 100px;
         background: #000;
-        width: 40%;
+        width: 30%;
         height: 100vh;
         margin-left: 60%;
+        color: #fff;
+      }
+      hr {
+        color: #fff;
+        width: 80%;
+      }
+      .left h3 {
+        text-align: center;
+      }
+      .centre {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="left"></div>
+      <div class="left">
+        <h2>Hotel availability</h2>
+        <hr />
+        <h3>Quay</h3>
+        <hr />
+        <div class="centre">
+          <h4 class="room">
+            Rooms Available : <left:span id="rest"></left:span>
+          </h4>
+        </div>
+      </div>
     </div>
     <script src="object.js"></script>
   </body>
