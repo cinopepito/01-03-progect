@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Objet</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background: url(asset/travelworthy-backdrop.jpg);
+    }
+    .text{
+        padding: 30px;
+        width: 30%;   
+        height: 100vh;
+        background: #000;
+        margin-left: 70%;
+    }
+    hr{
+        color:#000;
+    }
+    .box{
+        padding: 10px;
+        background: #fff;
+    }
+    .text h2{
+        color:orange;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="text">
+            <h2>Hotel availability</h2>
+            <hr>
+            <div class="box">
+                <h3 id="hotel1">Quay Rooms :</h3>
+                <h3 id="hotel2">Park Rooms :</h3>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <script src="constructionObjet.js"></script>
+</body>
+</html>
